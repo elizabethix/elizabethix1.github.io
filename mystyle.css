@@ -1,0 +1,202 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+.container {
+	width:auto;
+}
+
+.wrapper {
+	width:auto;
+	margin:auto;
+}
+
+.dark {
+	background-color:#25467a; 
+	color:white;
+}
+.gray{
+	background-color: #e3f0f9;
+	color: white;
+}
+
+
+#top_right {
+	font-size: 15px;
+	float:right;
+	
+	
+	
+}
+#top_div {
+	height:60px;
+	line-height:60px;
+	
+}
+#txt_logo {
+	 font-family: "Verdana", serif;
+	 font-style: italic;
+	 font-size: 20px;
+	 text-indent: 3px;
+}
+ul{
+	background-color:#c7d4e8;
+	
+}
+ul li {
+	
+	width:170px;
+	display:inline-block;
+	height:35px;
+	line-height:35px;
+	text-align: center;
+	
+}
+ul li a {
+	color: #25467a;
+	text-decoration: none;
+	display:block;
+}
+ul li a:hover{
+	background-color: white;
+}
+#logo_right{
+	float: right;
+    margin-top: 8px;
+    
+}
+#textstyle{
+	border-radius:8px;
+}
+#button{
+	background-color:#f2f4f7;
+	border-radius: 8px;
+	width:70px;
+}
+#clear{
+	clear: both;
+}
+#div.wrapper{
+display:block; 
+width:100%; 
+margin:0; 
+padding:0; 
+text-align:left;
+
+}
+.row1, .row1 a{
+color:#C0BAB6; 
+background-color:#333333;
+}
+.row2{
+color:#979797;
+background-color:#FFFFFF;
+}
+.row2 a{
+color:#FF9900; 
+background-color:#FFFFFF;
+}
+.row3, .row3 a{
+color:#919191; 
+background-color:#232323;
+}
+#container #slider{
+	
+}
+#container #slider figure{}
+#container #slider figure img{
+float:center; 
+width:630px; 
+height:300px;
+margin-top: 39px;
+}
+#container #slider figure figcaption{
+display:block; 
+float:left; 
+width:280px; 
+height:260px; 
+padding:20px; 
+overflow:hidden; 
+color:#989898;
+background-color:#DEDEDE; 
+line-height:1.6em;
+margin-top:39px;
+margin-left: 200px;
+}
+#container #slider figure figcaption a{
+color:#FF9900; 
+background-color:#DEDEDE;
+}
+#container #slider figure h2{
+font-size:42px; 
+font-weight:normal; 
+font-style:italic; 
+text-transform:none;
+}
+#container #slider figure footer{}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+/*desktop*/
+@media only screen and (min-width: 992px){
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+/*mobile*/
+@media only screen and (min-width: 480px){
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+/*Tablets*/
+@media only screen and (min-width:768px){
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+	
